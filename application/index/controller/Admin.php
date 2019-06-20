@@ -1,11 +1,12 @@
 <?php
 namespace app\index\controller;
-
+use think\Db;
 class Admin
 {
     public function index()
     {
-        echo "678";
+        $sql=Db::table('user')->select();
+        var_dump($sql);
     }
 
     public function hello($name = 'ThinkPHP5')
