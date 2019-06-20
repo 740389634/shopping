@@ -1,7 +1,7 @@
 <?php
 namespace app\admin\controller;
 
-class admin
+class Admin
 {
     public function index()
     {
