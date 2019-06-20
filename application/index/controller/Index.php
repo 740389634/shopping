@@ -6,7 +6,8 @@ class Index
     public function index()
     {
         $sql=Db::table('user')->select();
-        var_dump($sql);
+        
+        return $this->fetch('show');
     }
 
     
