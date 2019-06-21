@@ -5,11 +5,14 @@ class Index
 {
     public function index()
     {
-    	
+
         $sql=Db::table('user')->select();
-        
         var_dump($sql);
     }
+    public function show()
+    {
 
+       return view('index');
+    }
     
 }

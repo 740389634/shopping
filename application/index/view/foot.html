@@ -1,0 +1,22 @@
+<script type="text/javascript" src="__JS__/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="__JS__/js/aui-touchSlide.js"></script>
+<script>
+	/*banner首页轮播*/
+	TouchSlide({
+		slideCell : "#focus",
+		titCell : ".hd ul", // 开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		mainCell : ".bd ul",
+		effect : "leftLoop",
+		autoPlay : true, // 自动播放
+		autoPage : true, // 自动分页
+		delayTime: 200, // 毫秒；切换效果持续时间（执行一次效果用多少毫秒）
+		interTime: 5000, // 毫秒；自动运行间隔（隔多少毫秒后执行下一个效果）
+		switchLoad : "_src" // 切换加载，真实图片路径为"_src"
+	});
+</script>
+<script src="__JS__/js/aui-scroll.js" type="text/javascript" charset="utf-8"></script>
+<script src="__JS__/js/aui-index.js" type="text/javascript" charset="utf-8"></script>
+<script src="__JS__/js/aui-swipe.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
