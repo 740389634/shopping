@@ -8,6 +8,7 @@ class Index
 
         $sql=Db::table('user')->select();
         var_dump($sql);
+        echo 1;
     }
     public function show()
     {

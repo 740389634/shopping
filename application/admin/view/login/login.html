@@ -91,7 +91,7 @@
           $("#span_captcha").html(result.message)
           $("#captcha").attr('src',"{:captcha_src()}?="+Math.random())
           if (result.status="ok") {
-            location.href="{:url('index/index')}"
+            location.href="{:url('admin/show')}"
           }
         }
       })
