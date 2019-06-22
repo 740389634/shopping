@@ -57,4 +57,8 @@ class Index extends Controller
     public function Order(){
         return view('Order');
     }
+    //加入购物车
+    public function joinShopping(){
+        return view('joinShopping');
+    }
 }
