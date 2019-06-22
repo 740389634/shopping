@@ -21,7 +21,7 @@ class Login extends Controller
     		$arr=['code'=>'1','status'=>'error','message'=>'验证码错误'];
     	}else{
     		$where=['name'=>$name,'password'=>$password];
-    		$sql=Db::table('user')->where($where)->find();
+    		$sql=Db::table('admin')->where($where)->find();
     		if (empty($sql)) {
     			$arr=['code'=>'2','status'=>'error','message'=>'账号或密码错误'];
     		}else{
