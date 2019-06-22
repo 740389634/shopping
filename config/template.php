@@ -38,6 +38,7 @@ return [
     '__JS__'=>'/static',
     '__IMG__'=>'/static',
     '__STATIS__'=>'/static/hui',
+    '__INDEX__'=>'/static/index',
 ]
 
 ];
