@@ -37,6 +37,7 @@ return [
      '__CSS__'=>'/static',
     '__JS__'=>'/static',
     '__IMG__'=>'/static',
+    '__STATIS__'=>'/static/hui',
 ]
 
 ];
